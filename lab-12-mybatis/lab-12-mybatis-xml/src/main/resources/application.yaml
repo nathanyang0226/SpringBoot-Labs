@@ -1,10 +1,10 @@
 spring:
   # datasource 数据源配置内容
   datasource:
-    url: jdbc:mysql://47.112.193.81:3306/testb5f4?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://sh-cdb-d4hiax42.sql.tencentcdb.com:59871/test_user?useSSL=false&useUnicode=true&characterEncoding=UTF-8
     driver-class-name: com.mysql.jdbc.Driver
-    username: testb5f4
-    password: F4df4db0ed86@11
+    username: root
+    password: 190619YJ0556
 
 # mybatis 配置内容
 mybatis:

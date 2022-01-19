@@ -51,7 +51,7 @@ public class UserMapperTest {
 
     @Test
     public void testSelectByIds() {
-        List<UserDO> users = userMapper.selectByIds(Arrays.asList(1, 3));
+        List<UserDO> users = userMapper.selectByIds(Arrays.asList(1, 7));
         System.out.println("users：" + users.size());
     }
 

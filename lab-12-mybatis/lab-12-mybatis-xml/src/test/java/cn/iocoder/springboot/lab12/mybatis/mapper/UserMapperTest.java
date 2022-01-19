@@ -36,12 +36,12 @@ public class UserMapperTest {
 
     @Test
     public void testDeleteById() {
-        userMapper.deleteById(2);
+        userMapper.deleteById(7);
     }
 
     @Test
     public void testSelectById() {
-        userMapper.selectById(1);
+        userMapper.selectById(7);
     }
 
     @Test
@@ -51,7 +51,7 @@ public class UserMapperTest {
 
     @Test
     public void testSelectByIds() {
-        List<UserDO> users = userMapper.selectByIds(Arrays.asList(1, 3));
+        List<UserDO> users = userMapper.selectByIds(Arrays.asList(1, 7));
         System.out.println("users：" + users.size());
     }
 
